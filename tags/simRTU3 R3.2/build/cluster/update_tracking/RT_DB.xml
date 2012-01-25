@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="RT_DB/2">
+    <module_version install_time="1327508625147" last="true" origin="installer" specification_version="1.0">
+        <file crc="291474073" name="config/Modules/RT_DB.xml"/>
+        <file crc="851770226" name="modules/RT_DB.jar"/>
+        <file crc="1304528435" name="modules/docs/RT_DB.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-tui-messagelist-errorAction.instance">
+                <attr name="component" methodvalue="org.tui.messagelist.errorTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.tui.messagelist.Bundle#CTL_errorAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+            <file name="org-tui-messagelist-logAction.instance">
+                <attr name="component" methodvalue="org.tui.messagelist.logTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.tui.messagelist.Bundle#CTL_logAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+            <file name="org-tui-messagelist-messageAction.instance">
+                <attr name="component" methodvalue="org.tui.messagelist.messageTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.tui.messagelist.Bundle#CTL_messageAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="errorAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-tui-messagelist-errorAction.instance"/>
+            </file>
+            <file name="logAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-tui-messagelist-logAction.instance"/>
+            </file>
+            <file name="messageAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-tui-messagelist-messageAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="errorTopComponent.settings" url="errorTopComponentSettings.xml"/>
+            <file name="logTopComponent.settings" url="logTopComponentSettings.xml"/>
+            <file name="messageTopComponent.settings" url="messageTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="errorTopComponent.wstcref" url="errorTopComponentWstcref.xml"/>
+                <file name="logTopComponent.wstcref" url="logTopComponentWstcref.xml"/>
+                <file name="messageTopComponent.wstcref" url="messageTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

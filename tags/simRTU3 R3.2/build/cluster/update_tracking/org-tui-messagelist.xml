@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.tui.messagelist">
+    <module_version install_time="1327508624205" last="true" origin="installer" specification_version="1.0">
+        <file crc="1087404353" name="config/Modules/org-tui-messagelist.xml"/>
+        <file crc="1134424229" name="modules/org-tui-messagelist.jar"/>
+    </module_version>
+</module>

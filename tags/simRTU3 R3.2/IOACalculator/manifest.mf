@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.tui.ioacalculator/1
+OpenIDE-Module-Implementation-Version: 1
+OpenIDE-Module-Layer: org/tui/ioacalculator/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/tui/ioacalculator/Bundle.properties
+OpenIDE-Module-Requires: org.netbeans.api.javahelp.Help
+
