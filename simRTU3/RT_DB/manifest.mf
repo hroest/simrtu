@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+OpenIDE-Module: RT_DB/2
+OpenIDE-Module-Implementation-Version: 2
+OpenIDE-Module-Install: RT_DB/Installer.class
+OpenIDE-Module-Layer: RT_DB/layer.xml
+OpenIDE-Module-Localizing-Bundle: RT_DB/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.IOProvider,org.netbeans.api.javahelp.Help
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_tui_dbexplorer">
+                <file name="dbexplorer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.tui.dbexplorer.dbexplorerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.tui.dbexplorer//dbexplorer//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="tui">
+                    <folder name="dbexplorer">
+                        <file name="dbexplorerTopComponent">
+                            <!--org.tui.dbexplorer.dbexplorerTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_tui_dbexplorer/dbexplorer.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_tui_dbexplorer">
+                <file name="dbexplorer.instance">
+                    <!--org.tui.dbexplorer.dbexplorerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.tui.dbexplorer.dbexplorerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.tui.dbexplorer.dbexplorerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+OpenIDE-Module: iec60870/1
+OpenIDE-Module-Implementation-Version: 1
+OpenIDE-Module-Install: iec60870/Installer.class
+OpenIDE-Module-Layer: iec60870/layer.xml
+OpenIDE-Module-Localizing-Bundle: iec60870/Bundle.properties
+OpenIDE-Module-Requires: org.netbeans.api.javahelp.Help
+OpenIDE-Module-Specification-Version: 2
+

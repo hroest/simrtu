@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_tui_messagelist">
+                <file name="error" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.tui.messagelist.errorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.tui.messagelist//error//EN"/>
+                </file>
+                <file name="log" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.tui.messagelist.logTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.tui.messagelist//log//EN"/>
+                </file>
+                <file name="message" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.tui.messagelist.messageTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.tui.messagelist//message//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="tui">
+                    <folder name="messagelist">
+                        <file name="errorTopComponent">
+                            <!--org.tui.messagelist.errorTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_tui_messagelist/error.instance"/>
+                        </file>
+                        <file name="logTopComponent">
+                            <!--org.tui.messagelist.logTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_tui_messagelist/log.instance"/>
+                        </file>
+                        <file name="messageTopComponent">
+                            <!--org.tui.messagelist.messageTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_tui_messagelist/message.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_tui_messagelist">
+                <file name="error.instance">
+                    <!--org.tui.messagelist.errorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.tui.messagelist.errorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.tui.messagelist.errorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="log.instance">
+                    <!--org.tui.messagelist.logTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.tui.messagelist.logTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.tui.messagelist.logTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="message.instance">
+                    <!--org.tui.messagelist.messageTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.tui.messagelist.messageTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.tui.messagelist.messageTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

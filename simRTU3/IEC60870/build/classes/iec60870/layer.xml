@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+  
+ 
+    <folder name="OptionsDialog">
+        <file name="simRTU3IEC60870KonfOptionsCategory.instance">
+            <attr name="categoryName" bundlevalue="iec60870.Bundle#OptionsCategory_Name_IEC60870Konf"/>
+            <attr name="controller" newvalue="iec60870.IEC60870KonfOptionsPanelController"/>
+            <attr name="iconBase" stringvalue="iec60870/logo.png"/>
+            <attr name="instanceCreate" methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory"/>
+            <attr name="keywords" bundlevalue="iec60870.Bundle#OptionsCategory_Keywords_IEC60870Konf"/>
+            <attr name="keywordsCategory" stringvalue="IEC60870Konf"/>
+            <attr name="title" bundlevalue="iec60870.Bundle#OptionsCategory_Title_IEC60870Konf"/>
+        </file>
+    </folder>
+    <folder name="Services">
+        <folder name="JavaHelp">
+            <file name="iec60870-helpset.xml" url="iec60870-helpset.xml">
+                <attr name="position" intvalue="3762"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

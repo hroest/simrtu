@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.tui.messagelist
+OpenIDE-Module-Layer: org/tui/messagelist/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/tui/messagelist/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
