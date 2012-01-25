@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="APP_SET_DEFAULTS/1">
+    <module_version install_time="1327508624721" last="true" origin="installer" specification_version="1.0">
+        <file crc="404657309" name="config/Modules/APP_SET_DEFAULTS.xml"/>
+        <file crc="107356249" name="modules/APP_SET_DEFAULTS.jar"/>
+        <file crc="2025414017" name="modules/docs/APP_SET_DEFAULTS.jar"/>
+    </module_version>
+</module>

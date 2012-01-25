@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>lib</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>lib.common</package>
+                <package>lib.event</package>
+                <package>lib.interfaces.application</package>
+                <package>lib.interfaces.queue</package>
+                <package>lib.interfaces.xml</package>
+                <package>lib.io</package>
+                <package>lib.io.socket</package>
+                <package>lib.io.socketserver</package>
+                <package>lib.lang</package>
+                <package>lib.math</package>
+                <package>lib.net</package>
+                <package>lib.text</package>
+                <package>lib.util</package>
+                <package>lib.xml</package>
+            </public-packages>
+        </data>
+    </configuration>
+</project>

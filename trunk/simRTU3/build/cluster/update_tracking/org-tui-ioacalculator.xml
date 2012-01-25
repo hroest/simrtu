@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.tui.ioacalculator/1">
+    <module_version install_time="1327508623827" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="1276181039" name="config/Modules/org-tui-ioacalculator.xml"/>
+        <file crc="363766144" name="modules/docs/org-tui-ioacalculator.jar"/>
+        <file crc="2359074668" name="modules/org-tui-ioacalculator.jar"/>
+    </module_version>
+</module>
