@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.simrtu.common">
+    <module_version install_time="1328383157004" last="true" origin="installer" specification_version="1.0">
+        <file crc="2935518233" name="config/Modules/org-simrtu-common.xml"/>
+        <file crc="16651249" name="modules/org-simrtu-common.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_simrtu_objectdb_explorer">
+                <file name="obdbexplore" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.simrtu.objectdb.explorer.obdbexploreTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.simrtu.objectdb.explorer//obdbexplore//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="simrtu">
+                    <folder name="objectdb">
+                        <folder name="explorer">
+                            <file name="obdbexploreTopComponent">
+                                <!--org.simrtu.objectdb.explorer.obdbexploreTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//org_simrtu_objectdb_explorer/obdbexplore.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_simrtu_objectdb_explorer">
+                <file name="obdbexplore.instance">
+                    <!--org.simrtu.objectdb.explorer.obdbexploreTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.simrtu.objectdb.explorer.obdbexploreTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.simrtu.objectdb.explorer.obdbexploreTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-simrtu-objectdb-explorer-obdbexploreTopComponent.shadow">
+                <!--org.simrtu.objectdb.explorer.obdbexploreTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-simrtu-objectdb-explorer-obdbexploreTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="obdbexploreTopComponent.settings">
+                <!--org.simrtu.objectdb.explorer.obdbexploreTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.simrtu.objectdb.explorer.obdbexploreTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="obdbexploreTopComponent.wstcref">
+                    <!--org.simrtu.objectdb.explorer.obdbexploreTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="obdbexploreTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-simrtu-objectdb-explorer-obdbexploreTopComponent.instance">
+                <!--org.simrtu.objectdb.explorer.obdbexploreTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.simrtu.objectdb.explorer.obdbexploreTopComponent"/>
+                <attr name="preferredID" stringvalue="obdbexploreTopComponent"/>
+                <attr
+                    bundlevalue="org.simrtu.objectdb.explorer.Bundle#CTL_obdbexploreAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/simrtu/objectdb/explorer/simRTU4_obdbexp.png"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

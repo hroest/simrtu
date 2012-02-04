@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_simrtu_common_logger_messagelists">
+                <file name="debug" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.simrtu.common.logger.messagelists.debugTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.simrtu.common.logger.messagelists//debug//EN"/>
+                </file>
+                <file name="error" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.simrtu.common.logger.messagelists.errorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.simrtu.common.logger.messagelists//error//EN"/>
+                </file>
+                <file name="logging" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.simrtu.common.logger.messagelists.loggingTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.simrtu.common.logger.messagelists//logging//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="simrtu">
+                    <folder name="common">
+                        <folder name="logger">
+                            <folder name="messagelists">
+                                <file name="debugTopComponent">
+                                    <!--org.simrtu.common.logger.messagelists.debugTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//org_simrtu_common_logger_messagelists/debug.instance"/>
+                                </file>
+                                <file name="errorTopComponent">
+                                    <!--org.simrtu.common.logger.messagelists.errorTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//org_simrtu_common_logger_messagelists/error.instance"/>
+                                </file>
+                                <file name="loggingTopComponent">
+                                    <!--org.simrtu.common.logger.messagelists.loggingTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//org_simrtu_common_logger_messagelists/logging.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_simrtu_common_logger_messagelists">
+                <file name="debug.instance">
+                    <!--org.simrtu.common.logger.messagelists.debugTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.simrtu.common.logger.messagelists.debugTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.simrtu.common.logger.messagelists.debugTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="error.instance">
+                    <!--org.simrtu.common.logger.messagelists.errorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.simrtu.common.logger.messagelists.errorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.simrtu.common.logger.messagelists.errorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="logging.instance">
+                    <!--org.simrtu.common.logger.messagelists.loggingTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.simrtu.common.logger.messagelists.loggingTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.simrtu.common.logger.messagelists.loggingTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-simrtu-common-logger-messagelists-debugTopComponent.shadow">
+                <!--org.simrtu.common.logger.messagelists.debugTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-simrtu-common-logger-messagelists-debugTopComponent.instance"/>
+            </file>
+            <file name="org-simrtu-common-logger-messagelists-errorTopComponent.shadow">
+                <!--org.simrtu.common.logger.messagelists.errorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-simrtu-common-logger-messagelists-errorTopComponent.instance"/>
+            </file>
+            <file name="org-simrtu-common-logger-messagelists-loggingTopComponent.shadow">
+                <!--org.simrtu.common.logger.messagelists.loggingTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-simrtu-common-logger-messagelists-loggingTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="debugTopComponent.settings">
+                <!--org.simrtu.common.logger.messagelists.debugTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.simrtu.common.logger.messagelists.debugTopComponent"/>
+</settings>
+]]></file>
+            <file name="errorTopComponent.settings">
+                <!--org.simrtu.common.logger.messagelists.errorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.simrtu.common.logger.messagelists.errorTopComponent"/>
+</settings>
+]]></file>
+            <file name="loggingTopComponent.settings">
+                <!--org.simrtu.common.logger.messagelists.loggingTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.simrtu.common.logger.messagelists.loggingTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="debugTopComponent.wstcref">
+                    <!--org.simrtu.common.logger.messagelists.debugTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="debugTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="errorTopComponent.wstcref">
+                    <!--org.simrtu.common.logger.messagelists.errorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="errorTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+                <file name="loggingTopComponent.wstcref">
+                    <!--org.simrtu.common.logger.messagelists.loggingTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="loggingTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-simrtu-common-logger-messagelists-debugTopComponent.instance">
+                <!--org.simrtu.common.logger.messagelists.debugTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.simrtu.common.logger.messagelists.debugTopComponent"/>
+                <attr name="preferredID" stringvalue="debugTopComponent"/>
+                <attr
+                    bundlevalue="org.simrtu.common.logger.messagelists.Bundle#CTL_debugAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/simrtu/common/logger/messagelists/simRTU4_dbg.png"/>
+            </file>
+            <file name="org-simrtu-common-logger-messagelists-errorTopComponent.instance">
+                <!--org.simrtu.common.logger.messagelists.errorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.simrtu.common.logger.messagelists.errorTopComponent"/>
+                <attr name="preferredID" stringvalue="errorTopComponent"/>
+                <attr
+                    bundlevalue="org.simrtu.common.logger.messagelists.Bundle#CTL_errorAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/simrtu/common/logger/messagelists/simRTU4_err.png"/>
+            </file>
+            <file name="org-simrtu-common-logger-messagelists-loggingTopComponent.instance">
+                <!--org.simrtu.common.logger.messagelists.loggingTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.simrtu.common.logger.messagelists.loggingTopComponent"/>
+                <attr name="preferredID" stringvalue="loggingTopComponent"/>
+                <attr
+                    bundlevalue="org.simrtu.common.logger.messagelists.Bundle#CTL_loggingAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/simrtu/common/logger/messagelists/simRTU4_log.png"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
