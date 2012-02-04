@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.simrtu.communication">
+    <module_version install_time="1328383157262" last="true" origin="installer" specification_version="1.0">
+        <file crc="1075418136" name="config/Modules/org-simrtu-communication.xml"/>
+        <file crc="3053224763" name="modules/org-simrtu-communication.jar"/>
+    </module_version>
+</module>

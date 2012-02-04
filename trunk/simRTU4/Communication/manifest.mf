@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.simrtu.communication
+OpenIDE-Module-Localizing-Bundle: org/simrtu/communication/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
