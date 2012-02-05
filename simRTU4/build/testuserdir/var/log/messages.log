@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Saturday, February 4, 2012 8:19:19 PM CET
+>Log Session: Saturday, February 4, 2012 8:32:42 PM CET
 >System Info: 
   Product Version         = simRTU4 201201101530
   Operating System        = Mac OS X version 10.7.2 running on x86_64
@@ -87,7 +87,9 @@ Heap memory usage: initial 0b maximum 123,9MB
 Non heap memory usage: initial 23,2MB maximum 130,0MB
 Garbage collector: ParNew (Collections=5 Total time spent=0s)
 Garbage collector: ConcurrentMarkSweep (Collections=0 Total time spent=0s)
-Classes: loaded=4097 total loaded=4097 unloaded 0
+Classes: loaded=4106 total loaded=4106 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 4.294.967.296
 INFO [null]: Gesamter physischer Speicher 4.294.967.296
 WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/Window/ marked with the position attribute: [org-simrtu-common-logger-messagelists-debugTopComponent.shadow, org-simrtu-common-logger-messagelists-errorTopComponent.shadow, org-simrtu-common-logger-messagelists-loggingTopComponent.shadow, org-simrtu-objectdb-explorer-obdbexploreTopComponent.shadow], but some are: [org-netbeans-core-windows-actions-GlobalPropertiesAction.shadow, Output, SwitchToRecentDocumentAction.shadow, ProgressListAction.shadow, Separator3.instance, ConfigureWindow, org-netbeans-core-windows-actions-ResetWindowsAction.shadow, Separator4.instance, CloseWindowAction.shadow, CloseAllDocumentsAction.shadow, CloseAllButThisAction.shadow, DocumentsAction.shadow]
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator at org.netbeans.core.ui.sampler.SelfSamplerAction$InternalSampler.saveSnapshot(SelfSamplerAction.java:241)
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: module org.netbeans.libs.jna in /Applications/NetBeans/NetBeans 7.1.app/Contents/Resources/NetBeans/platform does not own modules/lib/libjnidispatch.jnilib at org.netbeans.StandardModule$OneModuleClassLoader.findLibrary(StandardModule.java:718)

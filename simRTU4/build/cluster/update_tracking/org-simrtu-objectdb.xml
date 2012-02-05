@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module codename="org.simrtu.objectdb">
-    <module_version install_time="1328383157536" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1328383960105" last="true" origin="installer" specification_version="1.0">
         <file crc="1044422273" name="config/Modules/org-simrtu-objectdb.xml"/>
         <file crc="797539134" name="modules/org-simrtu-objectdb.jar"/>
     </module_version>
